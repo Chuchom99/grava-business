@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/grava-business/static/css/main.9c97cdaf.css",
+    "main.js": "/grava-business/static/js/main.dfb4cc4e.js",
+    "static/media/phone.png": "/grava-business/static/media/phone.b2692376af4f0f32c547.png",
+    "static/media/asfor.png": "/grava-business/static/media/asfor.802cd2ec4baf4fb0ea21.png",
+    "static/media/chery.png": "/grava-business/static/media/chery.37fb699878481c108bc2.png",
+    "index.html": "/grava-business/index.html",
+    "main.9c97cdaf.css.map": "/grava-business/static/css/main.9c97cdaf.css.map",
+    "main.dfb4cc4e.js.map": "/grava-business/static/js/main.dfb4cc4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c97cdaf.css",
+    "static/js/main.dfb4cc4e.js"
+  ]
+}
