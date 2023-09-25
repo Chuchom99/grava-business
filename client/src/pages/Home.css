@@ -1,0 +1,354 @@
+body{
+     margin-bottom: 5%;
+    display: block; 
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  line-height: 68px !important;
+  font-size: 64px !important;
+  color: #ffff;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+span{
+    color: #6e7781;
+    margin: 1% 0;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: #dcf5e6;
+    padding: 3%;
+    color: #300;
+}
+.second{
+    background-color: #FFFFFF;
+}
+.d-block {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.features{
+    padding: 2% 2%;
+    margin: 0 2%;
+    font-weight: 500;
+    font-size: 20px;
+    color: #05130b;    
+}
+.card{
+    width: 125px;
+    height: 225px;
+    border-radius: 10px;
+}
+.second-section{
+    margin-top: -3%;
+}
+.card-img{
+    width: 125px;
+    height: 125px;
+}
+.member{
+    padding: 2% 4%;
+    font-family: 'Anek Bangla', sans-serif;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0 0;
+    padding:  .7rem 1rem;
+    font-weight: 700;
+}
+.coin-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -0.7% 1%;
+    padding:  .7rem 1rem;
+    font-weight: 700;
+}
+.coin-image{
+    height: 35px;
+    margin-right: 8px;
+    width: auto;
+}
+.coin-identity{
+    display: flex;
+    align-items: center;
+}
+.coin-link{
+    color: #000;
+}
+.coin-symbol{
+    margin-top: 15%;
+}
+.coin-name,.coin-price, .coin-24h, .hide-in-mobile{
+    margin-left: -3rem
+}
+.features{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feature-col{
+    margin: 2% 0 5%;
+    padding: 0 5% !important 
+}
+.feature-div{
+    /* margin: 20% 0; */
+}
+
+.view-more {
+    background-color: #05130b;;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-weight: bold;
+    letter-spacing: .7px;
+    color: #ffffff;
+    width: 37%;
+    border-radius: 7px;
+    padding: .3% 0;
+}
+.features:hover, .coin-link:hover{
+    color: #2C3333;
+}
+.gradient{
+    padding: 3% 7% 1%;
+    background-color: #38c172;
+}
+.button{
+    width: 500px;
+    padding: 2% 7% ;
+    background-color: #05130b;
+    color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -20% 0 2%;    
+}
+.button-2{
+    color: white;
+    width: 300px;
+    background-color: #38c172;
+    border-color: #fff;
+    border-style: solid;
+    padding: 2% 1%;
+    border-radius: 10px ;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1;
+    justify-content: space-between;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-left: 26px;
+}
+.button-2-icon{
+    margin-right: 3%;
+}
+.button:hover{
+
+}
+.top-col{
+  padding: 20% 0;
+}
+.top-p{
+    /* margin-left: -15%; */
+    font-weight: bold;
+    letter-spacing: .7px;
+    color: #ffffff;
+}
+.second-p{
+  font-weight: 500;  
+  font-size: 28px;
+  color: #D9D9D9;
+
+}
+.white{
+    color: #FFFFFF;
+}
+.suscribe-first-box{
+    width: 100%;
+    border-radius: 20px;
+    padding: 3% 3%;
+    border-color: #FAF9F6;
+    border-style: solid;
+    margin: 5% 0;
+}
+.suscribe-box{
+    width: 70%;
+    height: 70%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3% 1%;
+}
+.phone-div{
+    width: 370px;
+    height: 370px;
+    border-radius: 100%;
+    background-color: #ebf9f1;
+}
+.phone-image{
+    min-height: 100%;
+    display: block;
+    margin: 0 auto;
+    transform: rotate(-15deg);
+}
+.suscribe-heading{
+    color: #38c172;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 1.38;
+}
+.suscribe-p{
+    color: #05130b;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.suscribe-btns{
+    display: flex;
+}
+.suscribe-btn{
+    width: 50%;
+    background-color: #38c172;
+    padding: 1.5% .5%;
+    border-color: #38c172;
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.suscribe-btn2{
+    width: 60%;
+    background-color: #fff;
+    padding: 1.5% .5%;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-color: #FAF9F6;
+    border-style: solid;
+    margin-left: .7%;
+}
+.second-section{
+    padding: 3%;
+}
+.essay{
+    margin: 2% 0;
+}
+.footer-brand{
+    /* background-color: #38c172; */
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5rem;
+    color: #F9D2AB;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 2% 0 3%;
+}
+.footer-bold{
+   font-weight: 900; 
+}
+.footer-icon{
+    margin: .4% .5% 3%;
+}
+@media (max-width:1010px){
+    body{
+        text-align: center;
+        
+    }
+    h1{
+        font-size: 48px !important;
+        line-height: 52px !important;
+    }
+    .top-col{
+        padding: 10% 0;
+      }
+    .button{
+        width: 100%;
+        max-height: 60px;
+        padding: 6% 2%;
+        margin: .8% auto;
+    }
+    .top-p{
+        /* margin: 2% 0 2% -3%; */
+    }
+    .second-p, .suscribe-p{
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+    .second-section{
+        text-align: left;
+    }
+    .suscribe-first-box{
+        margin: 15% auto;
+    }
+    .suscribe-box{
+       margin: 10% auto;
+    }
+    .suscribe-heading{
+        font-size: 32px !important;
+        line-height: 36px !important;
+        /* justify-content: center; */
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+    .suscribe-p{
+        padding: 0 auto;
+        margin: 5% auto !important;
+        width: 100%;
+    } 
+    .phone-div{
+        width: 300px;
+        height: 300px;
+        margin: 2% auto;
+    } 
+    .suscribe-btns{
+        display: grid;
+    }  
+    .suscribe-btn,.suscribe-btn2{
+        margin: 2% auto;
+        width: 100%;
+    }  
+    .view-more{
+        margin: 3% auto 7% ;
+    } 
+    .hide-in-mobile{
+        display: none;
+    }
+    .coin-row{
+        margin: 0 2%;
+    }
+    .essay{
+        margin-bottom: 20%;
+    }
+    .feature-div{
+        margin: 2% 0;
+    }
+    .top-p{
+        /* margin-left: -5%; */
+    }
+}

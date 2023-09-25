@@ -1,0 +1,23 @@
+.suscribe-card{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 1.5% 0;
+    border-color: #FAF9F6;
+    border-style: solid;
+    /* background-color: white; */
+    text-align: center;
+}
+.suscribe-card-top{
+    background-color: #65bac8;
+    height: 150px;
+    /* width: 498px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+.suscribe-card-body{
+    padding: 3% .5% 0;
+}

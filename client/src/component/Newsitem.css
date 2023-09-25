@@ -1,0 +1,42 @@
+.news-h1,
+.items{
+    text-decoration: none;
+    padding: 1% 10%;
+    color: #000000;
+}
+.headline{
+    color: #000;
+}
+img{
+    max-width: 300px;
+    object-fit: cover;
+    max-height: 100%;
+}
+.news-item{
+    color: #38c172;
+    font-weight: bold;
+}
+.text{
+    /* font-size: 2em;
+    display: inline-block; */
+    /* padding-left: 2%; */
+    margin-left: -5%;
+}
+.headline:hover{
+    color: #38c172;
+}
+.summary{
+    color: #2C3333;
+}
+
+@media (max-width:1010px){
+    img{
+        max-width: 100%;
+        object-fit: cover;
+        max-height: 200px;
+    }  
+    .text{
+        margin: 1% 0;
+    }
+}
+
