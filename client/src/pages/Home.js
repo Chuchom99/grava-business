@@ -47,9 +47,7 @@ if(isLoading){
   }
   
 
-    return (
-      
-      
+    return (      
       <div >
       <section>
        <div className="gradient" >
